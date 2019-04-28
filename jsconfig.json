@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "target": "es6",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "src",
+        "paths": {
+            "Api/*": ["/app/api/*"],
+            "Hocs/*": ["/app/HOCs/*"],
+            "Assets/*": ["/app/modules/assets/*"],
+            "States/*": ["/app/modules/states/*"],
+            "Components/*": ["/app/modules/views/components/*"],
+            "Containers/*": ["/app/modules/views/containers/*"],
+            "Pages/*": ["/app/modules/views/pages/*"],
+            "Utils/*": ["/app/utils/*"],
+            "Configs/*": ["/configs/*"]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "public"
+    ]
+}
